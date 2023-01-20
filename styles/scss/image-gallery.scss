@@ -331,9 +331,9 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
         display: block;
         margin-right: 0;
         padding: 0;
-        border-bottom-right-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 0.75rem;
+        border-bottom-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
 
         + .image-gallery-thumbnail {
           margin-left: 0;
@@ -397,9 +397,9 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
     vertical-align: middle;
     width: 100%;
     line-height: 0;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
   }
 
   &.active {
