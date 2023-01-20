@@ -177,7 +177,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
   &.image-gallery-thumbnails-left,
   &.image-gallery-thumbnails-right {
     display: inline-block;
-    width: calc(100% - 110px); // 100px + 10px for margin
+    width: calc(100% - 230px); // 100px + 10px for margin
 
     @media (max-width: $ig-small-screen) {
       width: calc(100% - 87px); // 81px + 6px for margin
@@ -310,7 +310,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
   &.image-gallery-thumbnails-right {
     display: inline-block;
     vertical-align: top;
-    width: 100px;
+    width: 220px;
 
     @media (max-width: $ig-small-screen) {
       width: 81px; // 75px + 6px for border
@@ -325,6 +325,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
       top: 0;
 
       .image-gallery-thumbnail {
+        width: 100%;
         display: block;
         margin-right: 0;
         padding: 0;
